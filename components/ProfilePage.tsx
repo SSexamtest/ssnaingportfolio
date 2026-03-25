@@ -14,12 +14,13 @@ const FormatInspiredHero = () => {
                         <span className="float-left text-7xl md:text-8xl font-light mr-3 mt-2 leading-[0.8] border-b-2 border-transparent">
                             <div className="w-32 h-32 md:w-40 md:h-40 shrink-0 mb-4 md:mb-0">
                                 <Image
-                                    className="dark:invert"
                                     src="/snprofile.jpg"
                                     alt="Next.js logo"
                                     width={160}
                                     height={160}
                                     priority
+                                    className="w-40 h-auto rounded-lg"
+
                                 />
                             </div>
                         </span>
