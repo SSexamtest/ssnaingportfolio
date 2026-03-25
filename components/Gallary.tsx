@@ -49,12 +49,33 @@ import PhotoModal from "@/components/PhotoModal";
 export default function GalleryPage() {
 
     const images = [
-        "/file.svg",
-        "/globe.svg",
-        "/file.svg",
-        "/globe.svg",
-        "/file.svg",
+        "/sn/SN01.jpg",
+        "/sn/SN02.webp",
+        "/sn/SN08.webp",
+        "/sn/SN09.webp",
+        "/sn/SN10.webp",
+        "/sn/SN11.webp",
+        "/sn/SN12.webp",
+        "/sn/SN13.webp",
+        "/sn/SN14.webp",
+        "/sn/SN15.webp",
+        "/sn/SN16.webp",
+        
+        "/sn/SN19.webp",
+                        "/sn/SN03.webp",
+                        "/sn/SN06.webp",
+                        "/sn/SN17.webp",
+                "/sn/SN18.webp",
+                "/sn/SN05.webp",
+        "/sn/SN07.webp",
+        "/sn/SN20.webp",
+        "/sn/SN21.webp",
+        "/sn/SN04.webp",
+
+
+
     ];
+
 
     const [index, setIndex] = useState<number | null>(null);
 
@@ -74,7 +95,9 @@ export default function GalleryPage() {
       bg-white
       dark:bg-gray-900
       transition-colors
-    ">
+    ">  
+      <div className="text-center">
+ကိုစိုးနိုင် မသေဆုံးခင်က သူ့ဖလင်ကင်မရာနဲ့ နောက်ဆုံးရိုက်ခဲ့သည့်​ ဖလင်ဓါတ်ပုံတချို့</div>
 
             {/* grid */}
             <section className="
