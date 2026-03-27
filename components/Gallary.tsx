@@ -70,7 +70,6 @@ export default function GalleryPage() {
         "/sn/SN07.webp",
         "/sn/SN20.webp",
         "/sn/SN21.webp",
-        "/sn/SN04.webp",
 
 
 
